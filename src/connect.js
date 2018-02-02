@@ -33,9 +33,9 @@ class LineConnect extends LineAPI {
 		let expireCH = moment("/Date("+xc+"-0700)/").toString();
 		console.info("[*] ChannelToken: "+icH.channelAccessToken);
 		console.info("[*] ChannelTokenExpire: "+expireCH+"\n");
-		console.info(`NOTE: Qr koduna En kısa zaman dilimi içerisinde giriş yapınız\nAdmin eklemek için Src dosyasında Mybot yazan yere mid numaranızı ekleyiniz\n`);
+		console.info(`NOTE: Qr koduna En kısa zaman dilimi içerisinde giriş yapınız\nYukarıdaki Qr kodu ile giriş yaptıktan sonraki Çıkan token başlıgı;\nyanındaki kod size vadedilen Ve giriş yaptığınız hesabın Authtokenidir\n`);
         console.info(`CyberTK CyberJS Thx For TKR Team\n`);
-        console.info(`=======LINE CyberJS (Work is Bot)======\n`);
+        console.info(`=======LINE CyberJS (Work is TokenBot)======\n`);
         resolve();
       });
     });
